@@ -1,40 +1,117 @@
 {
-  "id": "/",
-  "name": "GoalFlow - Goal Tracking",
+  "name": "GoalFlow - Goal Tracking PWA",
   "short_name": "GoalFlow",
-  "description": "Track Fitness, Personal, Professional and Education goals. 42% more likely to achieve when written down.",
-  "start_url": "/?source=pwa",
-  "scope": "/",
+  "description": "Track goals. 42% more likely to achieve when written down. Fitness, Personal, Professional, Education.",
+  "id": "/goalflow-pwa/",
+  "scope": "/goalflow-pwa/",
+  "start_url": "/goalflow-pwa/",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone"],
-  "background_color": "#ffffff",
-  "theme_color": "#1e4d8c",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#f9fbfe",
+  "theme_color": "#0a1a3a",
+  "categories": [
+    "productivity",
+    "lifestyle"
+  ],
+  "lang": "en",
+  "dir": "ltr",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512-maskable.png",
+      "src": "icons/icon-512-maskable.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-192-maskable.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "/screenshots/home.png",
-      "sizes": "390x844",
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Tracker",
+      "url": "/goalflow-pwa/?new",
+      "description": "Create a new goal tracker",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Today",
+      "url": "/goalflow-pwa/?today",
+      "description": "View today's goals"
     }
   ]
 }
