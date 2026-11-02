@@ -1,0 +1,25 @@
+{
+  "name": "GoalFlow",
+  "short_name": "GoalFlow",
+  "description": "Track goals without friction. People are 42% more likely to achieve goals when written down.",
+  "id": "./",
+  "scope": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f9fbfe",
+  "theme_color": "#0a1a3a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-blue-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
