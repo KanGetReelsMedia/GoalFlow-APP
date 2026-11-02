@@ -1,11 +1,40 @@
 {
-  "name": "GoalFlow",
+  "id": "/",
+  "name": "GoalFlow - Goal Tracking",
   "short_name": "GoalFlow",
+  "description": "Track Fitness, Personal, Professional and Education goals. 42% more likely to achieve when written down.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#1e4d8c",
+  "display_override": ["window-controls-overlay", "standalone"],
   "background_color": "#ffffff",
+  "theme_color": "#1e4d8c",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
   ]
 }
