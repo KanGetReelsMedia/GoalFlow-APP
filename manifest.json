@@ -1,15 +1,11 @@
 {
   "name": "GoalFlow - Premium Goal Tracking",
   "short_name": "GoalFlow",
-  "description": "Track goals without friction. 42% more likely to achieve when written down.",
+  "description": "Track goals without friction. People are 42% more likely to achieve goals when written down. Track Fitness, Personal, Professional, and Education goals.",
   "id": "/goalflow-pwa/",
   "scope": "/goalflow-pwa/",
   "start_url": "/goalflow-pwa/",
   "display": "standalone",
-  "display_override": [
-    "window-controls-overlay",
-    "standalone"
-  ],
   "background_color": "#f9fbfe",
   "theme_color": "#0a1a3a",
   "icons": [
